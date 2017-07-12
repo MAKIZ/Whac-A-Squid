@@ -1,10 +1,10 @@
-# [Name of Game]
+# Whack-A-Squid
 
 [screenshot]
 
-## What is [name of game]?
+## What is Whack-A-Squid?
 
-> Brief discussion of what the game is and why you chose to make it
+> is inspired of the arcade game Whack-A-Mole. consists of a large, waist-level cabinet with five holes in its top and a large, soft, black mallet.
 
 ## Technical Discussion
 
