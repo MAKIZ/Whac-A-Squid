@@ -7,6 +7,8 @@
 It is based on the arcade game Whack-A-Mole. Once the game starts, the squids will begin to pop up from their holes at random. The object of the game is to force the individual squid back into their holes by hitting them directly with the cursor, thereby adding to the player's score. The quicker this is done the higher the final score will be.
 
 ## Wireframe
+![Image of wirframe](/images/Wireframe.png)
+![Image of draft](/images/Draft.jpg)
 
 (Your wireframes go here. Preferably two or more)
 

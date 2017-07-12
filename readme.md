@@ -1,6 +1,7 @@
 # Whack-A-Squid
 
-[screenshot]
+![Image of wirframe](/images/Wireframe.png)
+![Image of draft](/images/Draft.jpg)
 
 ## What is Whack-A-Squid?
 
@@ -8,7 +9,7 @@
 
 ## Technical Discussion
 
-> List of the technologies you're using (HTML, CSS, JavaScript)
+> Will use (HTML, CSS, JavaScript)
 
 ### Notes on Game Structure
 
