@@ -1,21 +1,21 @@
 console.log('You are in!')
 
-var squid =  document.getElementById('squid');
-var showHide = 'none';
+let coral = document.querySelector('.coral');
+let squid = document.querySelector('.squid');
 
-function inOut() {
-    //toggle the position visible and hidden
-    if (showHide == 'none' ) {
-        showHide = 'block';
-    } else {
-        showHide = 'none';
-    }
-    //update the id squid = to var showHide
-    squid.style.display = showHide;
+squidLocation = 80;
+
+function upDown() {
+    // let transition = window.requestAnimationFrame(upDown);
     
-    //Repeat the process every 2 seconds
-    console.log('in');
-    setTimeout(inOut, 1000)
+    if(squidLocation == 80) {
+        squidLocation = 0;
+        squid.style.top = squidLocation + 'px';
+    } else {
+        squidLocation = 80;
+        squid.style.top = squidLocation + 'px';
+    }
+    setTimeout(upDown, 1000);
 }
 
-inOut();
+upDown();

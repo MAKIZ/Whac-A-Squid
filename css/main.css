@@ -6,24 +6,22 @@ body {
     width: 600px;
     height: 600px;
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: lightseagreen;
 }
-
-#coral {
-    width: 80px;
-    height: 160px;
-    text-align: center;
-    position: relative;
-    background-color: teal;
-}
-
-#squid {
+.coral {
+    box-sizing: border-box;
     width: 80px;
     height: 80px;
-    text-align: center;
-    position: absolute;
-    background-color: lightsalmon;
+    position: relative;
+    /* overflow: hidden;          */
+    border: 1px solid snow;
+}
+
+.squid {
+    position: absolute; 
+    width: 78px;
+    height: 80px;
+    top: 80px;
+    background-color: salmon;
+    transition: .3s;
 }
