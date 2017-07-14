@@ -8,12 +8,17 @@ body {
     margin: 0 auto;
     background-color: lightseagreen;
 }
+
+.coral-column {
+    display: flex;
+}
+
 .coral {
     box-sizing: border-box;
     width: 80px;
     height: 80px;
     position: relative;
-    /* overflow: hidden;          */
+      overflow: hidden;            
     border: 1px solid snow;
 }
 
