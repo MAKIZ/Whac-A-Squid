@@ -49,11 +49,11 @@ body {
     width: 140px;
     height: 180px;
     position: relative;
-     overflow: hidden;                  
+      overflow: hidden;                   
     border: 1px solid snow;
 }
 
-.squid-top {
+.squid {
     position: absolute; 
     width: 138px;
     height: 180px;
@@ -75,17 +75,8 @@ body {
     width: 140px;
     height: 180px;
     position: relative;
-    overflow: hidden;                
+     overflow: hidden;                 
     border: 1px solid snow;
-}
-
-.squid-mid {
-    position: absolute; 
-    width: 138px;
-    height: 180px;
-    top: 180px;
-    background-color: salmon;
-    transition: .3s;
 }
 
 /* CORAL BOTTOM */
@@ -102,15 +93,6 @@ body {
     width: 140px;
     height: 180px;
     position: relative;
-    overflow: hidden;               
+     overflow: hidden;                
     border: 1px solid snow;
-}
-
-.squid-bottom {
-    position: absolute; 
-    width: 138px;
-    height: 180px;
-    top: 180px;
-    background-color: salmon;
-    transition: .3s;
 }
