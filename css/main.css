@@ -14,19 +14,18 @@ body {
     height: 100vh;
     position: absolute;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
 }
 
-.scoreboard {
+/* .scoreboard {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 5%;
-}
+} */
 
 #timer {
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .logo {
@@ -37,62 +36,63 @@ body {
 /* CORAL TOP */
 .coral-container-top {
     display: flex;
-    padding-left: 20%;
-    padding-top: 5%;
-    width: 80%;
+    width: 60%;
     justify-content: space-around;
 }
 
 .coral-top {
     box-sizing: border-box;
     justify-content:  flex-end;
-    width: 140px;
-    height: 180px;
+    width: 120px;
+    height: 160px;
     position: relative;
-      overflow: hidden;                   
+    top: 140px;
+    left: 30%;
+    overflow: hidden;                   
     border: 1px solid snow;
-}
-
-.squid {
-    position: absolute; 
-    width: 138px;
-    height: 180px;
-    top: 180px;
-    background-color: salmon;
-    transition: .3s;
 }
 
 /* CORAL MID */
 .coral-container-mid {
     display: flex;
-    width: 70%;
-    padding-top: 2%;
+    width: 60%;
     justify-content: space-around;
 }
 
 .coral-mid {
     box-sizing: border-box;
-    width: 140px;
-    height: 180px;
+    width: 120px;
+    height: 160px;
+    top: 120px;
+    left: 10%;
     position: relative;
-     overflow: hidden;                 
+    overflow: hidden;                 
     border: 1px solid snow;
 }
 
 /* CORAL BOTTOM */
 .coral-container-bottom {
     display: flex;
-    width: 80%;
-     padding-left: 15%; 
-    padding-top: 3%;
+    width: 70%;
     justify-content: space-around;
 }
 
 .coral-bottom {
     box-sizing: border-box;
-    width: 140px;
-    height: 180px;
+    width: 120px;
+    height: 160px;
     position: relative;
-     overflow: hidden;                
+    top: 120px;
+    left: 30%;
+    overflow: hidden;                
     border: 1px solid snow;
+}
+
+.squid {
+    position: absolute; 
+    width: 118px;
+    height: 160px;
+    top: 160px;
+    background-color: salmon;
+    transition: .3s;
 }

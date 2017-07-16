@@ -2,7 +2,7 @@ console.log('You are in!')
 
 let squids = document.querySelectorAll('section')[Math.floor(Math.random() * 6)];
 let timer = document.getElementById('timer');
-squidPosition = 180;
+squidPosition = 160;
 let score = 0;
 let secs = 60;
 
@@ -22,12 +22,12 @@ function getRandom() {
 //squid up and down
 
 function squidUpDown() {
-    if(squidPosition === 180) {
+    if(squidPosition === 160) {
         squidPosition = 0;
         squids.style.top = squidPosition + 'px';
         console.log('Up')
     } else {
-        squidPosition = 180;
+        squidPosition = 160;
         squids.style.top = squidPosition + 'px';
         console.log('Down')
     }
@@ -44,6 +44,7 @@ function hit() {
 function countdown() {
     let randomSquidOff  = setInterval(function(){ getRandom() }, 2000);
     let squidOff  = setInterval(function(){ squidUpDown() }, 1000);
+    document.querySelector('button').disabled = false
     
     function timerStart() {
         if (secs === 0) {
@@ -51,6 +52,8 @@ function countdown() {
             timer.innerHTML = secs;
             clearInterval(squidOff);
             clearInterval(randomSquidOff);
+            document.querySelector('button').disabled = false
+            location.reload();
         } else {
             secs--;
             timer.innerHTML = secs;
