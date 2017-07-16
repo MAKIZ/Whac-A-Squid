@@ -35,7 +35,7 @@ body {
 
 .coral-top {
     box-sizing: border-box;
-    background: url('../images/coral-top.png');
+    /* background: url('../images/coral-top.png'); */
     justify-content:  flex-end;
     width: 120px;
     height: 160px;
@@ -44,6 +44,12 @@ body {
     left: 30%;
     overflow: hidden;                   
     /* border: 1px solid snow; */
+}
+
+.coral-top:after {
+    background: url('../images/coral-top.png');
+    width: 120px;
+    height: 160px;
 }
 
 /* CORAL MID */
