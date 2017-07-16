@@ -4,7 +4,7 @@ let squids = document.querySelectorAll('section')[Math.floor(Math.random() * 6)]
 let timer = document.getElementById('timer');
 squidPosition = 160;
 let score = 0;
-let secs = 60;
+let secs = 12;
 
 //start game when click button
 function start() {
@@ -58,8 +58,11 @@ function countdown() {
             secs--;
             timer.innerHTML = secs;
             console.log(secs);
-        }  
-            
+        } 
+        
+        if (secs === 10) {
+            document.querySelector('#timer').style.color = 'tomato';
+        }
     }
     setInterval(timerStart, 1000)
 }

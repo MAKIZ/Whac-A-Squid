@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+/* font-family: 'Varela Round', 'helvetica', sans-serif; */
+
 body {
     background: url('../images/bkg.png');
     background-size: cover;
+    font-family: 'Varela Round', 'helvetica', sans-serif;
+    argin: 0;
 }
 
 .main-container {
@@ -13,17 +19,21 @@ body {
   .scoreboard {
     display: flex;
     justify-content: space-around;
+    font-size: 2em;
     position: relative;
-    top: 50px;
+    top: 30px;
 } 
 
 #timer {
     padding-top: 10px;
 }
 
-.logo {
-    text-align: center;
-    padding-bottom: 10%;
+#logo {
+    background: url('../images/logo.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 180px;
+    height: 160px;
 }
 
 /* CORAL TOP */
