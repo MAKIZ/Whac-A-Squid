@@ -12,10 +12,6 @@ function start() {
     countdown();
 }
 
-function refresh() {
-    location.reload()
-}
-
 //set random corals
 function getRandom() {
     newRandom = Math.floor(Math.random() * 6);
