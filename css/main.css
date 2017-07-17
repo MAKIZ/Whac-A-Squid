@@ -6,7 +6,7 @@ body {
     background: url('../images/bkg.png');
     background-size: cover;
     font-family: 'Varela Round', 'helvetica', sans-serif;
-    argin: 0;
+    margin: 0;
 }
 
 .main-container {
@@ -16,13 +16,28 @@ body {
     box-sizing: border-box;
 }
 
-  .scoreboard {
+.scoreboard {
     display: flex;
     justify-content: space-around;
     font-size: 2em;
+    color: steelblue;
     position: relative;
     top: 30px;
 } 
+
+#button {
+    background-color: gold;
+    padding: 5px;
+    border-radius: 12px;
+}
+
+#button:hover {
+    background-color: mediumaquamarine;
+    color: gold;
+    padding: 5px;
+    border-radius: 12px;
+    cursor: pointer;
+}
 
 #timer {
     padding-top: 10px;
@@ -49,7 +64,7 @@ body {
     width: 120px;
     height: 160px;
     position: relative;
-    top: 140px;
+    top: 130px;
     left: 30%;
     overflow: hidden;                   
 }
@@ -60,6 +75,7 @@ body {
     height: 160px;
     content: "";
     position: absolute;
+    pointer-events: none;
 }
 
 /* CORAL MID */
@@ -73,8 +89,8 @@ body {
     box-sizing: border-box;
     width: 120px;
     height: 160px;
-    top: 120px;
-    left: 10%;
+    top: 100px;
+    left: 15%;
     position: relative;
     overflow: hidden;                 
 }
@@ -85,6 +101,7 @@ body {
     height: 160px;
     content: "";
     position: absolute;
+    pointer-events: none;
 }
 
 /* CORAL BOTTOM */
@@ -99,7 +116,7 @@ body {
     width: 120px;
     height: 160px;
     position: relative;
-    top: 120px;
+    top: 110px;
     left: 30%;
     overflow: hidden;                
 }
@@ -110,6 +127,7 @@ body {
     height: 160px;
     content: "";
     position: absolute;
+    pointer-events: none;
 }
 
 .squid {
@@ -119,4 +137,5 @@ body {
     height: 160px;
     top: 160px;
     transition: .3s;
+    cursor: pointer;
 }

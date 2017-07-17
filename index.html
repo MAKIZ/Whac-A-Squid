@@ -7,21 +7,15 @@
         <link href="css/main.css" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     </head>
-    <body> <!--  onload="inOut" -->
+    <body> 
         <div class="main-container">
 
                 <div class="scoreboard">
-                    <div>TIME <span id="timer">60</span></div>
-                    <button onclick="start(); disabled=true">START</button>
-                    <div>SCORE <span id="score">0</span></div>
+                    <div>TIME  <span id="timer">60</span></div>
+                    <div onclick="start(); disabled=true" id="button">START</div>
+                    <div>SCORE  <span id="score">0</span></div>
                 </div>
-                <!-- <div class="logo">
-                        <p>WHACK</p>
-                        <p>-A-</p>
-                        <p>SQUID</p>
-                    </div> -->
 
-                <!-- coral top -->
                 <div class="coral-container-top">
                     <div class="coral-top">
                         <section class="squid" id="squid1"></section>
