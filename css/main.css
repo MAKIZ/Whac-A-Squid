@@ -45,7 +45,6 @@ body {
 
 .coral-top {
     box-sizing: border-box;
-    /* background: url('../images/coral-top.png'); */
     justify-content:  flex-end;
     width: 120px;
     height: 160px;
@@ -53,7 +52,6 @@ body {
     top: 140px;
     left: 30%;
     overflow: hidden;                   
-    /* border: 1px solid snow; */
 }
 
 .coral-top:after {
@@ -61,7 +59,7 @@ body {
     width: 120px;
     height: 160px;
     content: "";
-    position: relative;
+    position: absolute;
 }
 
 /* CORAL MID */
@@ -73,14 +71,20 @@ body {
 
 .coral-mid {
     box-sizing: border-box;
-    background: url('../images/coral-mid.png');
     width: 120px;
     height: 160px;
     top: 120px;
     left: 10%;
     position: relative;
     overflow: hidden;                 
-    /* border: 1px solid snow; */
+}
+
+.coral-mid:after {
+    background: url('../images/coral-mid.png');
+    width: 120px;
+    height: 160px;
+    content: "";
+    position: absolute;
 }
 
 /* CORAL BOTTOM */
@@ -92,14 +96,20 @@ body {
 
 .coral-bottom {
     box-sizing: border-box;
-    background: url('../images/coral-btm.png');
     width: 120px;
     height: 160px;
     position: relative;
     top: 120px;
     left: 30%;
     overflow: hidden;                
-    /* border: 1px solid snow; */
+}
+
+.coral-bottom:after {
+    background: url('../images/coral-btm.png');
+    width: 120px;
+    height: 160px;
+    content: "";
+    position: absolute;
 }
 
 .squid {
