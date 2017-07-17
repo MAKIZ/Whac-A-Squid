@@ -12,8 +12,13 @@
 
                 <div class="scoreboard">
                     <div>TIME  <span id="timer">60</span></div>
-                    <div onclick="start(); disabled=true" id="button">START</div>
-                    <div>SCORE  <span id="score">0</span></div>
+                    <div id="start-container">
+                    <button onclick="start(); disabled=true">START</button>
+                    <div id="reset"></div>
+                    <div id="timesup"></div>
+                    </div>
+                    <div>SCORE  <span id="score">0</span>
+                    </div>
                 </div>
 
                 <div class="coral-container-top">

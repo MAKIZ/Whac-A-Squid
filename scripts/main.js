@@ -4,7 +4,7 @@ let squids = document.querySelectorAll('section')[Math.floor(Math.random() * 6)]
 let timer = document.getElementById('timer');
 squidPosition = 160;
 let score = 0;
-let secs = 60;
+let secs = 10;
 
 //start game when click button
 function start() {
@@ -12,11 +12,15 @@ function start() {
     countdown();
 }
 
+function refresh() {
+    location.reload()
+}
+
 //set random corals
 function getRandom() {
     newRandom = Math.floor(Math.random() * 6);
     squids = document.querySelectorAll('section')[newRandom];
-    console.log('random ' + newRandom);
+    // console.log('random ' + newRandom);
 }
 
 //squid up and down
@@ -25,17 +29,17 @@ function squidUpDown() {
     if(squidPosition === 160) {
         squidPosition = 0;
         squids.style.top = squidPosition + 'px';
-        console.log('Up')
+        // console.log('Up')
     } else {
         squidPosition = 160;
         squids.style.top = squidPosition + 'px';
-        console.log('Down')
+        // console.log('Down')
     }
 }
 
 //score counter
 function hit() {
-    console.log('Hit');
+    // console.log('Hit');
     score++;
     document.getElementById('score').innerHTML = score;
 }
@@ -52,12 +56,13 @@ function countdown() {
             timer.innerHTML = secs;
             clearInterval(squidOff);
             clearInterval(randomSquidOff);
-            document.querySelector('button').disabled = false
-            location.reload();
+            // document.querySelector('button').disabled = false;
+            document.querySelector('#timesup').innerHTML = `Time's Up! You got this score ${score}`;
+            reset.innerHTML = `<a href="index.html">Play again </a>`
         } else {
             secs--;
             timer.innerHTML = secs;
-            console.log(secs);
+            // console.log(secs);
         } 
         
         if (secs === 10) {

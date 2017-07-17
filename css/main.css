@@ -25,10 +25,45 @@ body {
     top: 30px;
 } 
 
-#button {
+#start-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
     background-color: gold;
+    padding: 10px;
+    font-size: .8em;
+    border-radius: 14px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    color: steelblue;
+}
+
+#reset {
+    position: absolute;
     padding: 5px;
-    border-radius: 12px;
+    top: 90px;
+}
+
+a {
+    text-decoration: none;
+    color: steelblue;
+}
+
+a:hover {
+    text-decoration: none;
+    color: tomato;
+}
+
+#timesup {
+    padding-top: 10px;
+    position: absolute;
+    top: 40px;
 }
 
 #button:hover {
@@ -46,7 +81,7 @@ body {
 #logo {
     background: url('../images/logo.png');
     background-repeat: no-repeat;
-    position: absolute;
+    /* position: absolute; */
     width: 180px;
     height: 160px;
 }
@@ -89,7 +124,7 @@ body {
     box-sizing: border-box;
     width: 120px;
     height: 160px;
-    top: 100px;
+    top: 105px;
     left: 15%;
     position: relative;
     overflow: hidden;                 
