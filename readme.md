@@ -61,7 +61,7 @@ I use HTML5, CSS & Vanilla Javascript in creating this game.
 }
 ```
 
-## The Making of [Your Game]
+## The Making of Whack The Squid
 
 I did a lot of research to make my game i use google, stockoverflow, lynda, youtube a lot of reading and watching tutorials and also our GA lessons in every piece of the project. This was very tough project for me specially in using Javascript i dont have any javascript experience in the past only just now for 2 months. I spent most of my time working with javascript and it is very fulfilling i really love to learn how to program. I am okay using HTMl, CSS and i will continue to get better in javascript.
 
