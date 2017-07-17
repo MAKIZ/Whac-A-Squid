@@ -69,6 +69,8 @@ It takes a lot of time for the preparation doing wireframe and putting all toget
 
 All illustration is created by Mark Delos Reyes.
 
+Try the game http://editor-squirrel-30424.bitballoon.com/
+
 ## Opportunities for Future Growth
 
 If i have more time doing the game...
