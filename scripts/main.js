@@ -4,7 +4,7 @@ let squids = document.querySelectorAll('section')[Math.floor(Math.random() * 6)]
 let timer = document.getElementById('timer');
 squidPosition = 160;
 let score = 0;
-let secs = 10;
+let secs = 60;
 
 //start game when click button
 function start() {
