@@ -75,4 +75,5 @@ If i have more time doing the game...
 
 I will make a better interface.
 I will add animation.
-i will change my vanilla Js to jquery.
+I will change my vanilla Js to jquery.
+I will add sounds
