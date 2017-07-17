@@ -60,6 +60,8 @@ body {
     background: url('../images/coral-top.png');
     width: 120px;
     height: 160px;
+    content: "";
+    position: relative;
 }
 
 /* CORAL MID */
