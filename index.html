@@ -4,14 +4,14 @@
         <title>Whack-The-Squid</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/reset.css" rel="stylesheet">
         <link href="css/main.css" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     </head>
     <body> 
         <div class="main-container">
-
                 <div class="scoreboard">
-                    <div>TIME  <span id="timer">60</span></div>
+                    <div>TIME  <span id="timer">30</span></div>
                     <div id="start-container">
                     <button onclick="start(); disabled=true">START</button>
                     <div id="reset"></div>
@@ -20,7 +20,6 @@
                     <div>SCORE  <span id="score">0</span>
                     </div>
                 </div>
-
                 <div class="coral-container-top">
                     <div class="coral-top">
                         <section class="squid" id="squid1"></section>
@@ -29,7 +28,6 @@
                         <section class="squid" id="squid2"></section>
                     </div>
                 </div>
-
                 <!-- coral mid -->
                 <div class="coral-container-mid">
                     <div class="coral-mid">
@@ -39,7 +37,6 @@
                         <section class="squid" id="squid4"></section>
                     </div>
                 </div>
-
                 <!-- coral bottom -->
                 <div class="coral-container-bottom">
                     <div class="coral-bottom">
@@ -49,11 +46,8 @@
                         <section class="squid" id="squid6"></section>
                     </div>
                 </div>
-
                 <div id="logo"></div>
-                 
             </div><!-- main-container -->
-
-     <script src="scripts/main.js"></script> 
+     <script src="scripts/main.js"></script>
     </body>
 </html>

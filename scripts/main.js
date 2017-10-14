@@ -1,10 +1,8 @@
-console.log('You are in!')
-
 let squids = document.querySelectorAll('section')[Math.floor(Math.random() * 6)];
 let timer = document.getElementById('timer');
 squidPosition = 160;
 let score = 0;
-let secs = 60;
+let secs = 30;
 
 //start game when click button
 function start() {
@@ -69,10 +67,9 @@ function countdown() {
 }
 
 window.onload = function(){
-    document.getElementById("squid1").addEventListener("click",hit);
-    document.getElementById("squid2").addEventListener("click",hit); 
-    document.getElementById("squid3").addEventListener("click",hit); 
-    document.getElementById("squid4").addEventListener("click",hit); 
-    document.getElementById("squid5").addEventListener("click",hit); 
-    document.getElementById("squid6").addEventListener("click",hit);
+    var squid = document.querySelectorAll(".squid");
+    for(var i = 0; i < squid.length; i++) {
+        console.log(squid[i]);
+        squid[i].addEventListener("click", hit)
+    }
 }   
