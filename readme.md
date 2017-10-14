@@ -61,7 +61,7 @@ I use HTML5, CSS & Vanilla Javascript in creating this game.
 }
 ```
 
-## The Making of [Your Game]
+## The Making of Whack The Squid
 
 I did a lot of research to make my game i use google, stockoverflow, lynda, youtube a lot of reading and watching tutorials and also our GA lessons in every piece of the project. This was very tough project for me specially in using Javascript i dont have any javascript experience in the past only just now for 2 months. I spent most of my time working with javascript and it is very fulfilling i really love to learn how to program. I am okay using HTMl, CSS and i will continue to get better in javascript.
 
@@ -69,10 +69,13 @@ It takes a lot of time for the preparation doing wireframe and putting all toget
 
 All illustration is created by Mark Delos Reyes.
 
+Try the game http://editor-squirrel-30424.bitballoon.com/
+
 ## Opportunities for Future Growth
 
 If i have more time doing the game...
 
 I will make a better interface.
 I will add animation.
-i will change my vanilla Js to jquery.
+I will change my vanilla Js to jquery.
+I will add sounds
