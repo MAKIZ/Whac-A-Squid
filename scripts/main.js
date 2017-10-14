@@ -18,7 +18,6 @@ function getRandom() {
 }
 
 //squid up and down
-
 function squidUpDown() {
     if(squidPosition === 160) {
         squidPosition = 0;
