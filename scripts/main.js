@@ -1,6 +1,7 @@
 let squids = document.querySelectorAll('section')[Math.floor(Math.random() * 6)];
 let timer = document.getElementById('timer');
-squidPosition = 160;
+let scoreDisplay = document.querySelector('#scoreDisplay');
+let squidPosition = 160;
 let score = 0;
 let secs = 30;
 
@@ -34,7 +35,7 @@ function squidUpDown() {
 function hit() {
     // console.log('Hit');
     score++;
-    document.getElementById('score').innerHTML = score;
+    scoreDisplay.textContent = score;
 }
 
 //counter 
@@ -71,4 +72,4 @@ window.onload = function(){
         console.log(squid[i]);
         squid[i].addEventListener("click", hit)
     }
-}   
+}
